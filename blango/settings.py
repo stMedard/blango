@@ -30,6 +30,7 @@ ALLOWED_HOSTS = [
     'product-charter-8000.codio.io',
     'cello-corner-8000.codio.io',
     'cake-package-8000.codio.io',
+    'pluto-stamp-8000.codio.io',
 ]
 # Application definition
 
@@ -41,7 +42,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
+    'crispy_forms',
+    'crispy_bootstrap5',
 ]
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+CRISPY_TEMPLATE_PACK = "bootstrap5"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
