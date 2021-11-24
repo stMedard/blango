@@ -29,6 +29,7 @@ ALLOWED_HOSTS = [
     'violet-austria-8000.codio.io',
     'product-charter-8000.codio.io',
     'cello-corner-8000.codio.io',
+    'cake-package-8000.codio.io',
 ]
 # Application definition
 
